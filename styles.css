@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@600;700&display=swap');
+
+html, body{
+    height: 100vh;
+    margin:0px;
+    padding: 0px;
+    background: #111111;
+    overflow-y: hidden;
+    font-family: 'Spline Sans', sans-serif;
+  }
+
+  .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #particles-js{
+    width: 100%;
+    height: 100%;
+    background: #111111;
+  }
+
+  .v {
+      transition: all 0.5s ease;
+      color: white;
+      position: relative;
+      text-align: center;
+      top: -89vh;
+      font-size: 5rem;
+  }
+
+  .v2 {
+    transition: all 0.5s ease;
+    color: black;
+    position: relative;
+    text-align: center;
+    top: -89vh;
+    font-size: 5rem;
+    border-radius: 5px;
+background-color: rgb(55, 75, 255);
+padding: 10px;
+margin: 25px;
+border: none;
+}
+
+.v2:hover {
+  transition: all 0.5s ease;
+  color: black;
+  position: relative;
+  text-align: center;
+  top: -90vh;
+  font-size: 5rem;
+border-radius: 5px;
+background-color: rgb(55, 75, 255);
+padding: 10px;
+margin: 25px;
+}
+
+  .v:hover {
+      font-size: 6rem;
+      top: -95vh;
+  }
+
+  .b {
+    transition: all 0.5s ease;
+    color: black;
+    position: relative;
+    text-align: center;
+    top: -89vh;
+    font-size: 5rem;
+    border-radius: 5px;
+background-color: rgb(55, 75, 255);
+padding: 10px;
+margin-top: 50px;
+}
+
+.b:hover {
+  transition: all 0.5s ease;
+  color: black;
+  position: relative;
+  text-align: center;
+
+  font-size: 5rem;
+  border-radius: 5px;
+background-color: rgb(55, 75, 255);
+padding: 10px;
+margin-top: 50px;
+}
+
+.v2:active {
+  background-color: rgb(43, 0, 124);
+}
